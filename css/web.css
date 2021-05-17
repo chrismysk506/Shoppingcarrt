@@ -1,0 +1,704 @@
+nav,header,footer{
+    display:block;
+}
+
+body{
+    line-height: 1;
+    margin: 0;
+    background-color: mintcream;
+}
+header{
+    margin: 0;
+    width: 100%;
+    
+    
+    
+}
+
+nav{
+    margin: 0;
+    width: 100%;
+   
+}
+header ul{
+    background-color: mintcream;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+ ul.headr li{
+    list-style: none;
+    float: left;
+    
+}
+ ul.headr li.headerright {
+    list-style: none;
+    float: right;
+     margin-top: 10px;
+}
+nav ul{
+background-color: #4CAF50;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul.headr li a{
+    text-decoration:none;
+    display: block;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: dimgray;
+}
+ul.headr li.bolds a{
+    font-size: 40px;
+}
+ul.navg li{
+   list-style: none;
+    float: left;
+    
+    
+}
+
+.x{float: right;}
+ul.navg li a{
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+ul.navg li a:hover{
+    background: white;
+    color: black;
+}
+ul.navg li.dropicon{
+    display: none;
+}
+.headr li a:hover{
+    color: #4CAF50;
+}
+
+@media screen and (max-width:1216px)
+{
+     .contain{
+        width: 100% !important;
+    }
+     .mycontainer{
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0px !important;
+    }
+    .container1{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    width: 120px !important;
+    height: 120px !important;
+    box-shadow: 0 0 10px -1px;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+
+}
+@media screen and (max-width:1055px)
+{
+     .contain{
+        width: 100% !important;
+    }
+     .mycontainer{
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0px !important;
+    }
+    .container1{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    width: 100px !important;
+    height: 100px !important;
+    box-shadow: 0 0 10px -1px;
+    }
+    #data-6{
+        float: left;
+    }
+    
+    body{
+        overflow-x: hidden !important;
+    }
+}
+@media screen and (max-width:1476px)
+{
+     .contain{
+        width: 100% !important;
+    }
+     .mycontainer{
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0px !important;
+    }
+    
+  
+}
+/*#################mobile nav*/
+@media  screen and (max-width:936px){
+    ul.headr li.bolds{
+        margin-left: 100px;
+        line-height: 5px;
+        margin-top: 20px;
+    }
+    ul.navg li{
+        display: none;
+        
+    }
+    ul.navg li.home{
+        display: block;
+    }
+    ul.navg li.dropicon{
+        display: block;
+        float: right;
+    }
+    ul.navg.responsive li.dropicon{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    ul.navg.responsive{
+        position: relative;
+    }
+    ul.navg.responsive li{
+        display: inline;
+        float: none;
+    }
+    ul.navg.responsive li a{
+        display: block;
+        text-align: left;
+    }
+    .contain{
+        width: 100% !important;
+    }
+    .mycontainer{
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0px !important;
+    }
+    table.contain td {
+    width: 40% !important;
+        margin: 5px !important;
+       }
+table.contain tr {
+    display: flex;
+    flex-wrap: wrap;
+   }
+    #data-one{
+        float: left !important;
+    }
+    #data-two{
+        float: right !important;
+    }
+    
+    .container1{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    width: 100px !important;
+    height: 100px !important;
+    box-shadow: 0 0 10px -1px;
+    }
+    .container1 a{
+        font-size: 12px;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+    
+    
+    
+ /*php container*/
+    
+    .content{
+        width: 100% !important;
+        margin: 1px !important;
+        
+    }
+    .sidelist{
+        display: none;
+    }
+   
+    #phplogo,#phppic{
+        width: 80%;
+        margin: 20px;
+    }
+    
+    #icon1{
+        font-size: 15px;
+    }
+    #address{
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
+
+
+
+td{
+    padding: 0 10px;
+}
+#head1{
+    margin-left: 48px; margin-top: 20px;
+    padding-top: 40px;
+    
+}
+table.contain{
+    width: 20%;
+    margin-left: 40px;
+   
+}
+
+.container1{
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    width: 140px;
+    height: 140px;
+    box-shadow: 0 0 10px -1px;
+    }
+table{
+    margin-top: 20px;
+    border-spacing: 0 15px;
+    border-collapse: separate;
+}
+table.contain tr td a{
+    display: block;text-transform: uppercase;margin: 0;padding: 15px;
+}
+.mycontainer{
+    
+    width:70%;
+    height: auto;
+    background-color: white;
+    margin-left: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+a:hover
+  {
+    color:red;
+    text-decoration:none;
+    cursor:pointer;
+   }
+.footer{
+    background-color: white;
+    
+     border-top: 1px solid grey;
+     
+
+    
+     margin: 0 auto;
+    
+    
+}
+
+    
+    
+    
+
+.bottom{
+     background-color: #4CAF50;
+    height: 55px;
+   
+   
+}
+
+.bottom{
+    display: block;
+    
+    
+}
+.cptext{
+   
+    text-align: center;
+    color: white;
+    float: right;
+    
+}
+
+.number1{
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+
+
+.material-icons{
+    padding-top: 15px;
+  
+    font-size: 6px;
+}
+
+
+ul.list1{
+    display: block;
+    padding: 14px;
+    list-style: none;
+    text-decoration: none;
+    float: left;
+    
+}
+.footer{
+    width: 100%;
+    overflow: hidden;
+}
+.number1{float: left;width: 25%;display: block;padding: 14px;}
+.second{
+    width: 20%;
+    display: block;
+    float:left;
+    padding: 14px;
+}
+
+.third{width: 20%;
+    display: block;
+    float:left;padding: 14px;
+}
+
+.fourth{width: 20%;
+    display: block;
+    float:left;padding: 14px;
+}
+.botttomtag{
+    margin: 0;
+    
+}
+
+ul.list1 li a{
+    color: black;
+    font-size: 17px;
+   
+}
+
+ul.list1 li a:hover{
+    color: #4CAF50;
+}
+ul.list1 li{
+     margin-top: 10px;
+}
+
+
+#comp{
+    font-size: 23px;
+color: #4CAF50;
+}
+
+
+.texted{color: #4CAF50;}
+
+
+
+/**********java*/
+
+
+.salecard{
+display: flex;
+    background-color:mintcream;
+    height: 400px;
+    width: 200px;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 15px;
+    margin: 30px;
+    
+    
+}
+
+.salecard>img{
+    width: 170px;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+.cardprice {
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.cardname{
+    font-size: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.detailbtn{
+    width: 70px;
+    height: 40px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    color: black;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 20px;
+}
+
+.x{
+    margin-left: 80%;
+}
+/*******today*/
+.mycardcontainer{
+    border-radius: 10px;
+    
+    display: grid;
+    margin: 30px 30px;
+    background-color: white;
+    grid-template-columns: auto auto auto auto ;
+    margin-bottom: 400px;
+}
+
+.salecard:hover{
+   height: 390px;
+   width: 200px;
+   box-shadow: 10px 11px 24px -6px rgba(0,0,0,0.83);
+}
+
+.mylogincard{
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 100px;
+    margin-top:40px ;
+    box-shadow: 10px 11px 24px -6px rgba(0,0,0,0.83);
+}
+
+.avatar{
+    width: 70px;
+    height: 70px;
+}
+.imgscontainer{
+    width: 70px;
+    height: 70px;
+}
+.inputcontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.mylogincard>h2{
+margin-right: 35%;
+margin-left: 35%;
+padding-top: 30px;
+
+}
+.imgscontainer{
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+
+.loginbtn{
+    background-color: rgb(11, 103, 223);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.psw{
+    text-align: right;
+}
+
+
+
+@media screen and (max-width:1240px)
+{
+    .mycardcontainer{
+   grid-template-columns: auto auto auto;
+            
+    }
+}
+@media screen and (max-width:956px)
+{
+    .mycardcontainer{
+   grid-template-columns: auto  auto;
+            
+    }
+}
+
+@media screen and (max-width:652px)
+{
+    .mycardcontainer{
+   grid-template-columns: auto  auto;
+            
+    }
+    .salecard{
+        
+            
+            height: 320px;
+            width: 140px;
+            border-radius: 10px;
+            flex-direction: column;
+            padding: 15px;
+            margin: 30px;
+        }
+    
+        .salecard>img{
+            width: 130px;
+            height: 140px;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+           
+        }
+}
+
+
+
+
+
+@media screen and (max-width:532px)
+{
+    .mycardcontainer{
+   grid-template-columns: auto  auto;
+            
+    }
+    .salecard{
+        
+            
+            height: 320px;
+            width: 110px;
+            border-radius: 10px;
+            flex-direction: column;
+            padding: 15px;
+            margin: 30px;
+        }
+    
+        .salecard>img{
+            width: 90px;
+            height: 140px;
+            margin-top: 15px;
+            margin-left: 10px;
+            margin-right: 10px;
+           
+        }
+}
+
+
+
+@media screen and (max-width:532px){
+    .mycardcontainer{
+        grid-template-columns: auto;
+    }
+.salecard{
+    height: 370px;
+    width: 200px
+
+}
+    
+.salecard>img{
+    width: 170px;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+}
+
+
+@media screen and (max-width:1252px){
+    .mylogincard{
+        width: 350px;
+        border-radius: 10px;
+        background-color: white;
+        margin-left: 35%;
+        margin-right: 35%;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:920px){
+    .mylogincard{
+
+        margin-left: 30%;
+        margin-right: 35%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:745px){
+    .mylogincard{
+
+        margin-left: 25%;
+        margin-right: 35%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:657px){
+    .mylogincard{
+        
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width:553px){
+    .mylogincard{
+
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 40px;
+    }}
+    
+@media screen and (max-width:473px){
+    .mylogincard{
+
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 40px;
+    }}
+
+    
+@media screen and (max-width:421px){
+    .mylogincard{
+
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 40px;
+    }}
+
+.twobtn{
+    display: flex;
+}    
+.adminbtn{
+    background-color: lime;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.adminbtn:hover{
+    background-color: green;
+    color: white;
+}
